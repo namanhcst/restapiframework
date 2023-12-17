@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-17T01:26:53 IST" name="Default suite" finished-at="2023-12-17T01:26:59 IST" duration-ms="5767">
+    <groups>
+    </groups>
+    <test started-at="2023-12-17T01:26:53 IST" name="Default test" finished-at="2023-12-17T01:26:59 IST" duration-ms="5767">
+      <class name="api.test.UserTestWithDDApproach">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:53 IST" name="beforeSuite" finished-at="2023-12-17T01:26:53 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:54 IST" name="beforeTest" finished-at="2023-12-17T01:26:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:54 IST" name="beforeClass" finished-at="2023-12-17T01:26:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:56 IST" name="beforeMethod" finished-at="2023-12-17T01:26:56 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserTestWithDDApproach.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:56 IST" name="createUserTest" data-provider="getAllUsersData" finished-at="2023-12-17T01:26:59 IST" duration-ms="2918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[un1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Robie]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Williams]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rw@aol.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[rw1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.09090909E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUserTest status=SUCCESS method=UserTestWithDDApproach.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="beforeMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserTestWithDDApproach.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="createUserTest" data-provider="getAllUsersData" finished-at="2023-12-17T01:26:59 IST" duration-ms="55" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[un2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kristine]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mobolt]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[km@aol.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[km1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.090909091E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUserTest status=SUCCESS method=UserTestWithDDApproach.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="beforeMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserTestWithDDApproach.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="createUserTest" data-provider="getAllUsersData" finished-at="2023-12-17T01:26:59 IST" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[un3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Carter]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jc@aol.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jc1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.090909092E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createUserTest status=SUCCESS method=UserTestWithDDApproach.createUserTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="beforeMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserTestWithDDApproach.deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="deleteUserTest" data-provider="getAllUserIDs" finished-at="2023-12-17T01:26:59 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteUserTest status=SUCCESS method=UserTestWithDDApproach.deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="beforeMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserTestWithDDApproach.deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="deleteUserTest" data-provider="getAllUserIDs" finished-at="2023-12-17T01:26:59 IST" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteUserTest status=SUCCESS method=UserTestWithDDApproach.deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="deleteUserTest" data-provider="getAllUserIDs" finished-at="2023-12-17T01:26:59 IST" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="beforeMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=UserTestWithDDApproach.deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterMethod" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteUserTest status=SUCCESS method=UserTestWithDDApproach.deleteUserTest(java.lang.String)[pri:2, instance:api.test.UserTestWithDDApproach@4218d6a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterClass" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterTest" finished-at="2023-12-17T01:26:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:api.test.UserTestWithDDApproach@4218d6a3]" started-at="2023-12-17T01:26:59 IST" name="afterSuite" finished-at="2023-12-17T01:27:00 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- api.test.UserTestWithDDApproach -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

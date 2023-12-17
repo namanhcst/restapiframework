@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="UserAPITest(failed)">
+    <classes>
+      <class name="api.test.UserTestWithFaker">
+        <methods>
+          <include name="createRandomUser"/>
+          <include name="deleteUserTest"/>
+          <include name="updateUserTest"/>
+          <include name="readUserTest"/>
+        </methods>
+      </class> <!-- api.test.UserTestWithFaker -->
+    </classes>
+  </test> <!-- UserAPITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,9 @@
+api\payloads\pojo\users\User.class
+api\utilities\ExtentReportManager.class
+api\utilities\DataProvider.class
+api\utilities\ExcelUtility.class
+api\endpoints\UsersEndPoint.class
+api\test\BaseTest.class
+api\test\UserWithFakerTest.class
+api\endpoints\Routes.class
+api\test\UserWithDDApproachTest.class
